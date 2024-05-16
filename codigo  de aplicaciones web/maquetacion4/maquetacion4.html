@@ -1,0 +1,48 @@
+<!--
+    Universidad Tecnológica Metropolitana
+    Aplicaciónes Web
+    Ruth Martínez Domínguez
+     maquetado 1
+    Angel luis sanchez vazquez
+    3-B
+    1 Parcial
+-->
+<!DOCTYPE html> <!-- Declaración del tipo de documento, en este caso, HTML5 -->
+<html lang="en"> <!-- Definición del idioma (inglés) -->
+<head>
+    <meta charset="UTF-8"> <!-- Especificación de la codificación de caracteres -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Configuración de la visualización en dispositivos móviles -->
+    <title>Registro a Evento DEMO</title> <!-- Título de la página -->
+    <link rel="stylesheet" href="maquetacion4.css"> <!-- Enlace a una hoja de estilos externa -->
+</head>
+<body>
+<div class="map"> <!-- Contenedor de mapa -->
+    <img src="imagen4.jpg" alt=""> <!-- Imagen del mapa -->
+</div>
+
+<div class="container"> <!-- Contenedor principal -->
+    <h1>te invito a mi fiesta los <br>q venga sus tataraabuelo no ponen chupe</h1> <!-- Título del evento -->
+    <p>Llene las siguientes datas para registrarse al evento</p> <!-- Instrucciones para el registro -->
+    <div class="address"> <!-- Información de la dirección -->
+        <h2>Dirección</h2> <!-- Título -->
+        <p>15, place Peltier,Da Silvaboeuf</p> <!-- Dirección -->
+        <p>Petitjeanboeuf, 59860</p> <!-- Código postal y ciudad -->
+    </div>
+
+    <form> <!-- Formulario de registro -->
+        <label for="nombre-completo">Nombre Completo</label> <!-- Etiqueta para el nombre -->
+        <input type="text" id="nombre-completo" name="nombre-completo"> <!-- Campo de entrada para el nombre -->
+        <label for="apellido">Apellido</label> <!-- Etiqueta para el apellido -->
+        <input type="text" id="apellido" name="apellido"> <!-- Campo de entrada para el apellido -->
+        <label for="fecha">Fecha</label> <!-- Etiqueta para la fecha -->
+        <input type="date" id="fecha" name="fecha"> <!-- Campo de entrada para la fecha -->
+        <button type="submit">Registrar</button> <!-- Botón de envío del formulario -->
+        
+        <!-- Código para incrustar un mapa de Google Maps -->
+        <iframe width="520" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" id="gmap_canvas" src="https://maps.google.com/maps?width=520&amp;height=400&amp;hl=en&amp;q=%20M%C3%A9rida+()&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+        <a href='http://maps-generator.com/es'>Maps-Generator.com</a>
+        <script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=fc621a799e0d8b52ddea89742d14615ac97a740b'></script>
+    </form>
+</div>
+</body>
+</html>

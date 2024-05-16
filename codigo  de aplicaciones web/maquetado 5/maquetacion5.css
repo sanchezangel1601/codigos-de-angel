@@ -1,0 +1,30 @@
+*{
+  html{
+
+    body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 0 auto;
+      max-width: 800px;
+  }
+  
+ 
+
+    margin: 100%;
+    padding: 100%;
+    
+}
+ 
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+form, img {
+    margin: 1rem 8;
+}
+}
